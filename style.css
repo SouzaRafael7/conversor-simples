@@ -9,7 +9,7 @@ body {
     background-image: linear-gradient(to right, rgb(255, 37, 37), rgb(234, 255, 44)); /* Cor de fundo rgb */
     margin: 0; /* Removendo as margens padrão do body */
     padding: 0; /* Removendo o padding padrão do body */
-    color: #ffffff; /* Cor do texto em branco */
+    color: #000000; /* Cor do texto em preto */
 }
 
 /* Estilizando o contêiner principal */
