@@ -1,22 +1,23 @@
 # conversor-simples
 Este projeto web simples e intuitivo permite a conversão de diversas moedas de forma rápida e eficiente. A aplicação utiliza JavaScript para realizar os cálculos de conversão e o HTML/CSS para criar a interface do usuário.
 
-## 📝 Introdução
+## Introdução
 O projeto "Conversor de Moedas" tem como objetivo principal fornecer uma ferramenta simples e eficiente para a conversão de valores monetários entre diversas moedas internacionais. Essa aplicação web permite que usuários realizem cálculos de conversão de forma rápida e precisa, facilitando tarefas como planejamento de viagens, acompanhamento de investimentos e gestão financeira pessoal.
 
-## 📑 Índice
+## Índice
 * [Introdução](#introdução)
 * [Descrição](#descrição)
 * [Arquitetura do Código](#arquitetura-do-código)
 * [Responsividade](#responsividade)
 * [Funcionamento](#funcionamento)
 * [Funcionalidades](#funcionalidades)
+* [JavaScript](#javascript)
 * [Técnicas e tecnologias utilizadas](#técnicas-e-tecnologias-utilizadas)
 * [Fontes Consultadas](#fontes-consultadas)
 * [Colaboradores](#colaboradores)
 * [Autor](#autor)
 
-## 🛠️ Descrição
+## Descrição
 O projeto consiste em um aplicativo web simples e intuitivo que permite aos usuários converter valores monetários entre diversas moedas internacionais. 
 
 
@@ -29,32 +30,32 @@ O projeto consiste em um aplicativo web simples e intuitivo que permite aos usu�
 
 ![Tela de Cadastro](vdi/Gravação-de-Tela-2024-10-24-074839.gif)
 
-### 🏗️ Arquitetura do Código
+### Arquitetura do Código
 
 - **HTML:** Define a estrutura da página, incluindo os elementos do formulário, botões e área de resultado.
 - **CSS:** Estiliza a aparência da página, controlando cores, fontes, layout e responsividade.
 - **JavaScript:** Realiza a lógica da aplicação, incluindo a obtenção dos valores dos campos de entrada, o cálculo da conversão e a atualização da área de resultado.
 
-### 📱 Responsividade
+### Responsividade
 - **Layout:** O layout da aplicação é responsivo, adaptando-se a diferentes tamanhos de tela. O contêiner principal se ajusta automaticamente à largura disponível.
 - **Fontes e tamanhos:** Os tamanhos das fontes e elementos da interface são ajustados para garantir legibilidade em diferentes dispositivos.
 - **Espaçamentos:** Os espaçamentos entre os elementos são definidos de forma a manter uma aparência consistente em diferentes resoluções.
 - **Botões:** Os botões são dimensionados para ocupar o espaço disponível e possuem um efeito hover para indicar interação.
 
-### ⚙️ Funcionamento
+### Funcionamento
 1. **Interface do Usuário:** O usuário interage com a página através de um formulário, selecionando as moedas e informando o valor a ser convertido.
 2. **Captura de Dados:** Ao clicar no botão "Converter", o JavaScript captura os valores selecionados pelo usuário nos campos do formulário.
 3. **Cálculo da Conversão:** Utilizando as taxas de câmbio pré-definidas em um objeto JavaScript, o código calcula o valor convertido.
 4. **Exibição do Resultado:** O resultado da conversão é exibido em uma área específica da página.
 5. **Reset:** Ao clicar no botão "Resetar", os campos do formulário são limpos e a área de resultado é zerada, preparando a aplicação para uma nova conversão.
 
-## ✨ Funcionalidades
+## Funcionalidades
 - **Conversão de moedas:** Permite converter entre diversas moedas populares, como Dólar, Euro, Real, Libra Esterlina, Iene, Dólar Canadense e Dólar Australiano.
 - **Interface intuitiva:** A interface é projetada para ser fácil de usar, com campos de entrada claros e um layout organizado.
 - **Atualização automática das taxas de câmbio:** As taxas de câmbio são definidas no código JavaScript e podem ser facilmente atualizadas para refletir as taxas de mercado mais recentes.
 - **Responsividade:** A aplicação se adapta a diferentes tamanhos de tela, garantindo uma boa experiência do usuário em dispositivos móveis e desktops.
 
-## 📈 Javascript
+## Javascript
 - O objeto ``exchangeRates`` armazena as taxas de câmbio entre as diferentes moedas. Cada chave do objeto representa uma moeda de origem, e os valores são objetos que mapeiam para as moedas de destino e suas respectivas taxas de câmbio.
 
 - Funcionalidade do JavaScript
@@ -65,7 +66,7 @@ O projeto consiste em um aplicativo web simples e intuitivo que permite aos usu�
     - **Botão de reset:** Um ouvinte de eventos é adicionado ao botão de reset para limpar os campos de entrada e a área de resultado.
 
 
-## 🛠️ Técnicas e Tecnologias Utilizadas
+## Técnicas e Tecnologias Utilizadas
 
 * [<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 * [<code><img height="32" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS3"/></code>](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -76,7 +77,7 @@ O projeto consiste em um aplicativo web simples e intuitivo que permite aos usu�
 * [<code><img height="32" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></code>](https://github.com/)
 
 
-## 📚 Fontes Consultadas
+## Fontes Consultadas
  
 * [Alura - Como escrever um bom README.md](https://www.alura.com.br/artigos/escrever-bom-readme)
 * [Bootstrap](https://getbootstrap.com/docs/5.3/forms/checks-radios/#radios)
@@ -89,11 +90,11 @@ O projeto consiste em um aplicativo web simples e intuitivo que permite aos usu�
 * [W3schools](https://www.w3schools.com/js/js_window_location.asp)
 
 
-## 🤝 Colaboradores
+## Colaboradores
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712280?v=4" width=115><br><sub>Fellipe Zanin</sub>](https://github.com/Fell1pe) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712281?v=4" width=115><br><sub>Ana Luiza</sub>](https://github.com/AnaLu1za) |
 | :---: | :---: | 
 
 
 
-## 👤 Autor
+## Autor
 Rafael Souza Mastellini [GitHub](https://github.com/SouzaRafael7)
