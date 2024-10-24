@@ -66,7 +66,7 @@ O projeto consiste em um aplicativo web simples e intuitivo que permite aos usu�
     - **Botão de reset:** Um ouvinte de eventos é adicionado ao botão de reset para limpar os campos de entrada e a área de resultado.
 
 
-## Técnicas e Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * [<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 * [<code><img height="32" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS3"/></code>](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
